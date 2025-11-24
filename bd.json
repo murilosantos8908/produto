@@ -1,0 +1,41 @@
+{
+    "nome_praça": "pracinha do JK",
+    "pontos_bicicleta": [
+        {"id": 1, "local": "A", "bicicletas": [
+            {"id":1, "tipo": "elétrica", "valor": 2.0},
+            {"id":2, "tipo": "manual", "valor": 1.0},
+            {"id":3, "tipo": "elétrica", "valor": 2.0},
+            {"id":4, "tipo": "manual", "valor": 1.0}
+        ]
+    },
+        {"id": 2, "local": "B", "bicicletas": [
+            {"id":5, "tipo": "elétrica", "valor": 2.0},
+            {"id":6, "tipo": "manual", "valor": 1.0},
+            {"id":7, "tipo": "elétrica", "valor": 2.0},
+            {"id":8, "tipo": "manual", "valor": 1.0}
+        ]
+    },
+        {"id": 3, "local": "C", "bicicletas": [
+            {"id":9, "tipo": "elétrica", "valor": 2.0},
+            {"id":10, "tipo": "manual", "valor": 1.0},
+            {"id":11, "tipo": "elétrica", "valor": 2.0},
+            {"id":12, "tipo": "manual", "valor": 1.0}
+        ]
+    }],
+    "usuários": [
+        {"id": 1, "nome": "biston"},
+        {"id": 1, "nome": "biston"}
+    ],
+    "corridas": [
+        {
+            "id_usuários": 1,
+            "id_bicicletas": 1,
+            "id_ponto_partida": 1,
+            "id_ponto_chegada": 1,
+            "inicio": "24/11/2025 15:35:00",
+            "duracao": "00:04:21"
+        }
+    ]
+
+
+}
