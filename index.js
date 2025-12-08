@@ -2,19 +2,29 @@ const prompt = require("prompt-sync")();
 const fs = require('fs');
 const path = require('path');
 
-while (true) {
-    const escolha = prompt(`
-0: sair   
+// try {
+//     const idade = Number(prompt("digite sua idade:"))
+//     console.log(teste)
+// } catch (error) {
+//     console.log(error);
+//     console.log("deu erro;")  
+// }
 
-Escolha uma opção no menu
-    `);
+// console.log("continuando codigo...");
 
-    if (escolha == "0") {
-        break;
-    } else {
-        continue;
-    }
-}
+// while (true) {
+//     const escolha = prompt(`
+// 0: sair   
+
+// Escolha uma opção no menu
+//     `);
+
+//     if (escolha == "0") {
+//         break;
+//     } else {
+//         continue;
+//     }
+// }
 
 function loadDB() {
     try {
@@ -41,28 +51,28 @@ function saveDB(db){
     }
 }
 
-function getNextId(nome) {
-    const db = loadDB();
+// function getNextId(nome) {
+//     const db = loadDB();
 
-    const values = db.name || [];
+//     const values = db.name || [];
 
-    let maxId = 0;
-    for (let i = 0; i < usuarios.length; i++) {
-        const u = usuarios[i];
-        if (typeof u.id === 'number' && u.id > maxId) {
-            maxId = u.id;
-        }
-    }
-    const newId = maxId !== 0 ? maxId + 1 : 1; //if ternario ou if one line
-    //const var = condição (true ou false) ? valor se verdadeiro : valor se falso
+//     let maxId = 0;
+//     for (let i = 0; i < usuarios.length; i++) {
+//         const u = usuarios[i];
+//         if (typeof u.id === 'number' && u.id > maxId) {
+//             maxId = u.id;
+//         }
+//     }
+//     const newId = maxId !== 0 ? maxId + 1 : 1; //if ternario ou if one line
+//     //const var = condição (true ou false) ? valor se verdadeiro : valor se falso
 
-    // if (maxId !== 0) {
-    //     const newId = maxId + 1
-    // } else {
-    //     const newId = 1
-    // }
-}
+//     // if (maxId !== 0) {
+//     //     const newId = maxId + 1
+//     // } else {
+//     //     const newId = 1
+//     // }
+// }
 
-function cadastrarusuario(nome, ) {
+// function cadastrarusuario(nome, ) {
 
-}
+// }

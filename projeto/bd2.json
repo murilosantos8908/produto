@@ -1,0 +1,34 @@
+{
+    "grupos": [
+        {
+            "nome": "Grupo 1",
+            "nome_integrantes": ["mirela", "joao", "isabela"],
+            "praça": "praça 1",
+            "lista_materias": []
+        },
+        {
+            "nome": "Grupo 2",
+            "nome_integrantes": ["leticia", "pedro", "julia"],
+            "praça": "praça 2",
+            "lista_materias": []
+        },
+        {
+            "nome": "Grupo 3",
+            "nome_integrantes": ["maria luisa", "gabriel", "joseph"],
+            "praça": "praça 3",
+            "lista_materias": []
+        },
+        {
+            "nome": "Grupo 4",
+            "nome_integrantes": ["maria eduarda", "vitor", "fernanda"],
+            "praça": "praça 4",
+            "lista_materias": []
+        },
+        {
+            "nome": "Grupo 5",
+            "nome_integrantes": ["isack", "erik", "miguel"],
+            "praça": "praça 5",
+            "lista_materias": []
+        }
+    ]
+}
